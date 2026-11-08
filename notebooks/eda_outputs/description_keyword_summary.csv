@@ -1,0 +1,6 @@
+feature,matching_rows,matching_percent,median_price_with_flag,median_price_without_flag
+renovation_mentions,42344,28.229333333333333,902600.0,840150.0
+repair_mentions,40526,27.017333333333333,808800.0,874900.0
+original_finishes,47791,31.860666666666663,817600.0,876200.0
+luxury_mentions,23659,15.772666666666666,873400.0,853600.0
+transit_mentions,44470,29.646666666666665,846200.0,860800.0

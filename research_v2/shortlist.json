@@ -1,0 +1,21 @@
+{
+  "off_market": [
+    "lgb_l2_calibrated",
+    "lgb_text_svd",
+    "lgb_enhanced_l2",
+    "cat_rmse8",
+    "spline_text_ridge10",
+    "xgb_native",
+    "incumbent"
+  ],
+  "list_aware": [
+    "cat_mae7",
+    "cat_rmse8",
+    "cat_huber7",
+    "cat_recent36",
+    "lgb_list_calibrated",
+    "spline_ridge",
+    "xgb_depth6",
+    "incumbent"
+  ]
+}

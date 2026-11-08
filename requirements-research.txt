@@ -1,0 +1,4 @@
+-r requirements.txt
+catboost>=1.2,<2
+xgboost>=3,<4
+joblib>=1.4,<2

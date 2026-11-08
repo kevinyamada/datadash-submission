@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "point_windows": [
+    "2024-03-01",
+    "2024-07-01",
+    "2025-03-01"
+  ],
+  "note": "Exploratory comparisons on previously inspected periods. No automatic model replacement. No training or hidden test access."
+}

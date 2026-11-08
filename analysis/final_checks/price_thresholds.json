@@ -1,0 +1,7 @@
+{
+  "sold_price_p10": 440480.0,
+  "sold_price_p90": 1761240.0000000002,
+  "homes_per_track": 10069,
+  "source_sha256": "2fb62693bb8d2a1fab96d3566dea1f662cf00d7cde3f9a8dac2d381c36b2a9ee",
+  "interpretation": "Bottom and top 10 percent by actual validation sale price. Boundary ties are included, so counts can slightly exceed 10 percent. Diagnostic groups only, never prediction features. Error percentiles are reported separately because the original percentile request was ambiguous."
+}

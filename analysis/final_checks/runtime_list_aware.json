@@ -1,0 +1,18 @@
+{
+  "track": "list_aware",
+  "status": "complete",
+  "training_homes": 150000,
+  "prediction_homes": 4064,
+  "data_load_seconds": 1.2443999000024633,
+  "fit_seconds": 341.27260979999846,
+  "first_batch_prediction_seconds": 0.5290090999988024,
+  "repeat_batch_prediction_seconds": [
+    0.5487456999981077,
+    0.4701273000027868,
+    0.4293452999991132
+  ],
+  "median_repeat_batch_seconds": 0.4701273000027868,
+  "amortised_repeat_ms_per_home": 0.11568093011879596,
+  "fit_plus_first_prediction_seconds": 341.80161889999727,
+  "note": "One training run on all labelled data. Full final settings. Fit includes feature preparation and internal calibration. Prediction includes feature transformation. Import and data loading time excluded from fit and predict. Per home time is batch throughput, not single request latency. Timings depend on hardware and load. Predictions are checked but not saved or scored against hidden outcomes."
+}

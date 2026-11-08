@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "selection": "Equal-weight geometric means tested on two earlier frozen windows; select mean MdAPE, prefer single model if improvement below 0.05 percentage points. No December-May results used for this selection.",
+  "tracks": {
+    "off_market": [
+      {
+        "name": "lgb_l2_calibrated",
+        "weight": 0.5,
+        "config": {
+          "family": "lgb",
+          "features": "enhanced",
+          "calibration_months": 3,
+          "calibration_shrink": 0.5,
+          "params": {
+            "objective": "regression",
+            "num_leaves": 63,
+            "n_estimators": 1200
+          }
+        }
+      },
+      {
+        "name": "spline_text_ridge10",
+        "weight": 0.5,
+        "config": {
+          "family": "gam",
+          "features": "enhanced",
+          "text_ridge": true,
+          "params": {
+            "alpha": 10
+          }
+        }
+      }
+    ],
+    "list_aware": [
+      {
+        "name": "cat_mae7",
+        "weight": 1.0,
+        "config": {
+          "family": "cat",
+          "features": "enhanced",
+          "params": {
+            "depth": 7,
+            "loss_function": "MAE",
+            "iterations": 1600
+          }
+        }
+      }
+    ]
+  }
+}

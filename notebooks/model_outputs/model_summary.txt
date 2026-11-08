@@ -1,0 +1,98 @@
+Monthly walk-forward validation: December 2025 to May 2026.
+All training sales precede the evaluated sale month.
+Scores are historical validation results, not hidden-test results.
+The listing-safe subset also requires listing on or after the cutoff.
+The subset contains different homes and is not directly comparable.
+Fixed model settings were used without hyperparameter search.
+
+overall_scores
+
+              model  homes  MdAPE_percent  MAPE_percent  MAE_dollars  median_bias_percent
+list_aware_baseline  10069          7.259         8.085    84250.462                5.682
+   list_aware_model  10069          4.106         5.222    59074.696                0.310
+off_market_baseline  10069         17.715        22.027   244348.302                1.973
+   off_market_model  10069          9.550        12.227   139690.211                0.680
+
+scores_by_month
+
+              model   month  homes  MdAPE_percent  MAPE_percent  MAE_dollars  median_bias_percent
+list_aware_baseline 2025-12   1238          7.458         8.229    77193.215                6.459
+list_aware_baseline 2026-01   1058          7.581         8.306    74637.713                6.604
+list_aware_baseline 2026-02   1442          7.153         8.094    80781.831                5.727
+list_aware_baseline 2026-03   1816          7.097         7.935    86047.963                5.284
+list_aware_baseline 2026-04   2224          7.236         8.060    87851.484                5.484
+list_aware_baseline 2026-05   2291          7.248         8.043    89765.954                5.118
+   list_aware_model 2025-12   1238          3.899         4.979    50248.545                0.886
+   list_aware_model 2026-01   1058          4.069         4.919    47380.597                0.903
+   list_aware_model 2026-02   1442          4.106         5.214    56012.060                0.232
+   list_aware_model 2026-03   1816          4.049         5.283    62103.171               -0.050
+   list_aware_model 2026-04   2224          4.101         5.217    62515.473                0.241
+   list_aware_model 2026-05   2291          4.282         5.456    65431.508                0.079
+off_market_baseline 2025-12   1238         19.251        24.039   228570.315                9.211
+off_market_baseline 2026-01   1058         18.653        22.713   211727.363                4.030
+off_market_baseline 2026-02   1442         18.002        22.272   234808.044                3.051
+off_market_baseline 2026-03   1816         16.825        21.433   250025.385                0.860
+off_market_baseline 2026-04   2224         17.595        21.740   254320.324                0.741
+off_market_baseline 2026-05   2291         17.308        21.219   259763.313               -0.718
+   off_market_model 2025-12   1238          9.732        12.832   126638.864                4.531
+   off_market_model 2026-01   1058          9.765        12.656   127767.737                1.322
+   off_market_model 2026-02   1442          9.527        11.936   131693.549               -0.082
+   off_market_model 2026-03   1816          9.199        11.999   141825.999                0.129
+   off_market_model 2026-04   2224          9.404        11.867   141860.759                0.270
+   off_market_model 2026-05   2291          9.961        12.416   153481.937               -0.016
+
+scores_by_property_type
+
+              model    house_type_name  homes  MdAPE_percent  MAPE_percent  MAE_dollars  median_bias_percent
+list_aware_baseline          Co-Op Apt     48          9.818         9.637    70137.500                9.818
+list_aware_baseline          Condo Apt   4843          7.201         7.824    48188.685                7.094
+list_aware_baseline    Condo Townhouse    616          6.889         7.686    57811.039                5.322
+list_aware_baseline           Detached   3123          7.571         8.488   137164.681                4.449
+list_aware_baseline Freehold Townhouse    405          7.438         8.582   106903.704                3.718
+list_aware_baseline      Semi-Detached   1034          6.846         8.063   100870.986                0.496
+   list_aware_model          Co-Op Apt     48          4.805         5.067    46458.377                2.276
+   list_aware_model          Condo Apt   4843          3.432         4.047    24912.535                0.511
+   list_aware_model    Condo Townhouse    616          4.113         5.182    39162.877                0.553
+   list_aware_model           Detached   3123          5.054         6.361   104008.964                0.114
+   list_aware_model Freehold Townhouse    405          5.113         6.533    82021.721               -0.121
+   list_aware_model      Semi-Detached   1034          5.725         6.807    86826.484               -0.841
+off_market_baseline          Co-Op Apt     48         27.859        38.187   507443.750                0.862
+off_market_baseline          Condo Apt   4843         17.880        21.913   143733.368                4.429
+off_market_baseline    Condo Townhouse    616         14.414        17.981   131978.084                3.458
+off_market_baseline           Detached   3123         20.471        24.991   425530.323                0.032
+off_market_baseline Freehold Townhouse    405         14.569        17.296   227023.086               -1.233
+off_market_baseline      Semi-Detached   1034         13.838        17.118   229894.584               -2.206
+   off_market_model          Co-Op Apt     48         14.965        20.330   317777.686               -0.509
+   off_market_model          Condo Apt   4843          9.263        11.897    79739.386                1.871
+   off_market_model    Condo Townhouse    616          7.544         9.955    74612.584                2.337
+   off_market_model           Detached   3123         10.340        13.234   233728.595                0.120
+   off_market_model Freehold Townhouse    405          8.810        11.322   155020.212               -3.332
+   off_market_model      Semi-Detached   1034          9.846        12.064   160958.048               -3.010
+
+scores_by_price_band
+
+              model price_band  homes  MdAPE_percent  MAPE_percent  MAE_dollars  median_bias_percent
+list_aware_baseline Under 500k   1744          7.429         8.054    33531.365                7.291
+list_aware_baseline 500k to 1m   4694          7.219         7.950    57144.141                6.172
+list_aware_baseline   1m to 2m   2912          7.259         8.186   110105.598                3.912
+list_aware_baseline    Over 2m    719          7.248         8.629   279523.088                4.373
+   list_aware_model Under 500k   1744          3.692         4.383    18234.566                1.807
+   list_aware_model 500k to 1m   4694          3.832         4.729    34648.803                0.487
+   list_aware_model   1m to 2m   2912          4.815         6.103    82712.049               -0.933
+   list_aware_model    Over 2m    719          4.938         6.909   221867.963               -1.514
+off_market_baseline Under 500k   1744         27.196        30.098   119633.515               27.196
+off_market_baseline 500k to 1m   4694         14.509        18.448   133750.160                3.619
+off_market_baseline   1m to 2m   2912         16.967        20.248   278508.860               -9.443
+off_market_baseline    Over 2m    719         32.950        33.024  1130544.019              -28.359
+   off_market_model Under 500k   1744         10.033        13.282    52222.548                9.570
+   off_market_model 500k to 1m   4694          8.355        10.689    77252.993                0.646
+   off_market_model   1m to 2m   2912         10.278        12.713   172591.905               -4.044
+   off_market_model    Over 2m    719         15.390        17.743   626218.970              -10.456
+
+scores_listing_safe_subset
+
+              model  homes  MdAPE_percent  MAPE_percent  MAE_dollars  median_bias_percent
+list_aware_baseline   3604          7.062         8.046    97515.566                4.763
+   list_aware_model   3604          4.412         5.673    72858.974                0.413
+off_market_baseline   3604         17.304        21.978   286362.666                0.057
+   off_market_model   3604          9.978        12.408   163356.765                0.084

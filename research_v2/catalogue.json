@@ -1,0 +1,296 @@
+{
+  "incumbent": {
+    "family": "lgb",
+    "features": "base",
+    "params": {
+      "n_estimators": 350,
+      "learning_rate": 0.05
+    }
+  },
+  "lgb_l1_1000": {
+    "family": "lgb",
+    "features": "base"
+  },
+  "lgb_l2_1000": {
+    "family": "lgb",
+    "features": "base",
+    "params": {
+      "objective": "regression"
+    }
+  },
+  "lgb_huber": {
+    "family": "lgb",
+    "features": "base",
+    "params": {
+      "objective": "huber",
+      "alpha": 0.9
+    }
+  },
+  "lgb_l1_63": {
+    "family": "lgb",
+    "features": "enhanced",
+    "params": {
+      "num_leaves": 63,
+      "n_estimators": 1200
+    }
+  },
+  "lgb_l2_63": {
+    "family": "lgb",
+    "features": "enhanced",
+    "params": {
+      "objective": "regression",
+      "num_leaves": 63,
+      "n_estimators": 1200
+    }
+  },
+  "lgb_l2_15": {
+    "family": "lgb",
+    "features": "enhanced",
+    "params": {
+      "objective": "regression",
+      "num_leaves": 15,
+      "n_estimators": 1200
+    }
+  },
+  "lgb_recent36": {
+    "family": "lgb",
+    "features": "enhanced",
+    "recent_months": 36
+  },
+  "lgb_weighted18": {
+    "family": "lgb",
+    "features": "enhanced",
+    "half_life": 18
+  },
+  "lgb_text_svd": {
+    "family": "lgb",
+    "features": "enhanced",
+    "svd": 32,
+    "params": {
+      "objective": "regression",
+      "num_leaves": 31
+    }
+  },
+  "lgb_text_svd_l1": {
+    "family": "lgb",
+    "features": "enhanced",
+    "svd": 32
+  },
+  "cat_rmse6": {
+    "family": "cat",
+    "features": "enhanced",
+    "params": {
+      "depth": 6,
+      "iterations": 1200
+    }
+  },
+  "cat_rmse8": {
+    "family": "cat",
+    "features": "enhanced",
+    "params": {
+      "depth": 8,
+      "iterations": 1600
+    }
+  },
+  "cat_mae7": {
+    "family": "cat",
+    "features": "enhanced",
+    "params": {
+      "depth": 7,
+      "loss_function": "MAE",
+      "iterations": 1600
+    }
+  },
+  "cat_huber7": {
+    "family": "cat",
+    "features": "enhanced",
+    "params": {
+      "depth": 7,
+      "loss_function": "Huber:delta=0.1",
+      "iterations": 1200
+    }
+  },
+  "cat_recent36": {
+    "family": "cat",
+    "features": "enhanced",
+    "recent_months": 36,
+    "params": {
+      "depth": 7,
+      "iterations": 1200
+    }
+  },
+  "cat_text_svd": {
+    "family": "cat",
+    "features": "enhanced",
+    "svd": 32,
+    "params": {
+      "depth": 7,
+      "iterations": 1600
+    }
+  },
+  "xgb_depth6": {
+    "family": "xgb",
+    "features": "enhanced"
+  },
+  "xgb_depth4": {
+    "family": "xgb",
+    "features": "enhanced",
+    "params": {
+      "max_depth": 4,
+      "n_estimators": 1500
+    }
+  },
+  "extra_trees": {
+    "family": "extra",
+    "features": "enhanced",
+    "params": {
+      "n_estimators": 128,
+      "max_depth": 24,
+      "min_samples_leaf": 8
+    }
+  },
+  "ridge": {
+    "family": "ridge",
+    "features": "enhanced",
+    "params": {
+      "alpha": 100
+    }
+  },
+  "lgb_comparables": {
+    "family": "lgb",
+    "features": "enhanced",
+    "comparables": true,
+    "params": {
+      "objective": "regression",
+      "num_leaves": 31
+    }
+  },
+  "cat_comparables": {
+    "family": "cat",
+    "features": "enhanced",
+    "comparables": true,
+    "params": {
+      "depth": 7,
+      "iterations": 1600
+    }
+  },
+  "lgb_area_l2": {
+    "family": "lgb",
+    "features": "enhanced",
+    "area_offset": true,
+    "params": {
+      "objective": "regression",
+      "num_leaves": 31
+    }
+  },
+  "cat_area_rmse": {
+    "family": "cat",
+    "features": "enhanced",
+    "area_offset": true,
+    "params": {
+      "depth": 7,
+      "iterations": 1600
+    }
+  },
+  "spline_ridge": {
+    "family": "gam",
+    "features": "enhanced",
+    "params": {
+      "alpha": 100
+    }
+  },
+  "spline_text_ridge": {
+    "family": "gam",
+    "features": "enhanced",
+    "text_ridge": true,
+    "params": {
+      "alpha": 100
+    }
+  },
+  "spline_text_ridge10": {
+    "family": "gam",
+    "features": "enhanced",
+    "text_ridge": true,
+    "params": {
+      "alpha": 10
+    }
+  },
+  "lgb_enhanced_l2": {
+    "family": "lgb",
+    "features": "enhanced",
+    "params": {
+      "objective": "regression"
+    }
+  },
+  "lgb_market_l1": {
+    "family": "lgb",
+    "features": "market",
+    "params": {
+      "n_estimators": 500,
+      "num_leaves": 15,
+      "min_child_samples": 100
+    }
+  },
+  "cat_market": {
+    "family": "cat",
+    "features": "market",
+    "params": {
+      "depth": 5,
+      "iterations": 1000,
+      "loss_function": "MAE"
+    }
+  },
+  "cat_raw_text": {
+    "family": "cat",
+    "features": "enhanced",
+    "raw_text": true,
+    "params": {
+      "depth": 7,
+      "iterations": 1600
+    }
+  },
+  "lgb_l2_calibrated": {
+    "family": "lgb",
+    "features": "enhanced",
+    "calibration_months": 3,
+    "calibration_shrink": 0.5,
+    "params": {
+      "objective": "regression",
+      "num_leaves": 63,
+      "n_estimators": 1200
+    }
+  },
+  "lgb_list_calibrated": {
+    "family": "lgb",
+    "features": "base",
+    "calibration_months": 3,
+    "calibration_shrink": 0.5,
+    "params": {
+      "n_estimators": 1000
+    }
+  },
+  "xgb_native": {
+    "family": "xgb",
+    "features": "enhanced",
+    "native_categories": true
+  },
+  "xgb_native_l1": {
+    "family": "xgb",
+    "features": "enhanced",
+    "native_categories": true,
+    "params": {
+      "objective": "reg:absoluteerror"
+    }
+  },
+  "hist_l2": {
+    "family": "hist",
+    "features": "base"
+  },
+  "hist_l1": {
+    "family": "hist",
+    "features": "base",
+    "params": {
+      "loss": "absolute_error"
+    }
+  }
+}

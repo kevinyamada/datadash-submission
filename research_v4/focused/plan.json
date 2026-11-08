@@ -1,0 +1,19 @@
+{
+  "tree_weights": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "price_correction": "Earlier out of sample median log residuals in predicted price bands above 1.5m; at least 200 cases, shrink n/(n+500), cap factor at 1/1.10 to 1.10",
+  "calibration_only_window": "2023-07-01",
+  "evaluation_windows": [
+    "2024-03-01",
+    "2024-07-01",
+    "2025-03-01"
+  ],
+  "interval_target": 0.9,
+  "point_review_rule": "Average MdAPE improvement at least 0.10 percentage points, MAPE worsening at most 0.10, worst window worsening at most 0.20, improvement in at least two of three windows",
+  "time_limit_minutes": 15.0,
+  "script_sha256": "4307b7444cfd964cf65ffe375047ed24927155d748799a81961115b7054ac99f",
+  "disclosure": "All periods have been seen before. Treat results as exploratory. No model or submission files are changed."
+}

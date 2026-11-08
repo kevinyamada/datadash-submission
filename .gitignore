@@ -1,0 +1,16 @@
+data/
+data_local/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+research_v2/cache/
+research_v2/predictions/
+research_v3/predictions/
+/*_results*.zip

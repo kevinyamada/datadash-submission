@@ -1,0 +1,19 @@
+{
+  "cutoffs": [
+    "2024-03-01",
+    "2024-11-01",
+    "2025-07-01"
+  ],
+  "recent_comparison": [
+    "2024-11-01",
+    "2025-07-01"
+  ],
+  "candidates": [
+    "current_50_50",
+    "proposed_75_25"
+  ],
+  "identity": "sqrt(current_geometric_blend * tree) equals tree^0.75 * spline^0.25 when current is tree^0.5 * spline^0.5",
+  "script_sha256": "6f08710c4af099dd323e866c5c6c6d6fb3fb3d5fab04d687c17777b82b8b4407",
+  "time_limit_minutes": 15.0,
+  "disclosure": "Reuses previously inspected periods. No fitting, hidden test access or automatic model changes."
+}

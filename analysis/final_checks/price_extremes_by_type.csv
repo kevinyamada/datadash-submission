@@ -1,0 +1,21 @@
+tail,house_type_name,track,n,mdape,bias
+Cheapest 10%,Co-Op Apt,list_aware,13,4.481122942884808,4.481122942884808
+Cheapest 10%,Co-Op Apt,off_market,13,13.6575693958479,13.6575693958479
+Cheapest 10%,Condo Apt,list_aware,975,3.359854014598551,1.7067007382169264
+Cheapest 10%,Condo Apt,off_market,975,8.315679925994445,8.00715166461159
+Cheapest 10%,Condo Townhouse,list_aware,18,5.461895627247449,4.827259992994515
+Cheapest 10%,Condo Townhouse,off_market,18,7.046383424384839,6.417571176509562
+Cheapest 10%,Detached,list_aware,1,8.211514075576964,8.211514075576964
+Cheapest 10%,Detached,off_market,1,40.288105503423786,40.288105503423786
+Most expensive 10%,Co-Op Apt,list_aware,3,3.985981873111788,-3.985981873111788
+Most expensive 10%,Co-Op Apt,off_market,3,43.111705072313335,-43.111705072313335
+Most expensive 10%,Condo Apt,list_aware,45,2.690098648154915,-1.3414751396392255
+Most expensive 10%,Condo Apt,off_market,45,32.476385820974016,-32.476385820974016
+Most expensive 10%,Condo Townhouse,list_aware,2,7.500656002322104,-1.634559683952408
+Most expensive 10%,Condo Townhouse,off_market,2,21.621829528812384,-21.621829528812384
+Most expensive 10%,Detached,list_aware,775,5.196026558771649,-0.7899879240311769
+Most expensive 10%,Detached,off_market,775,12.518294279355935,-7.40650186617623
+Most expensive 10%,Freehold Townhouse,list_aware,52,5.560321316992867,-1.924139578352868
+Most expensive 10%,Freehold Townhouse,off_market,52,14.622664181015937,-13.612768578921585
+Most expensive 10%,Semi-Detached,list_aware,130,5.61948605189177,-2.6664845728793187
+Most expensive 10%,Semi-Detached,off_market,130,12.606588224972366,-10.074122077643565

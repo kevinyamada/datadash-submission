@@ -1,0 +1,17 @@
+,dtype,missing_count,missing_percent,unique_values
+ml_num,str,0,0.0,3974
+date_listed,datetime64[us],0,0.0,306
+house_type_name,str,0,0.0,6
+house_style,str,0,0.0,16
+bedrooms,int64,0,0.0,7
+washrooms,int64,0,0.0,6
+parking_total,int64,0,0.0,7
+garage,float64,0,0.0,5
+house_area,str,0,0.0,1470
+lot_front,float64,2149,54.076497232008045,1528
+lot_depth,float64,2149,54.076497232008045,1678
+municipality,str,0,0.0,5
+community,str,0,0.0,145
+latitude,float64,0,0.0,3167
+longitude,float64,0,0.0,3167
+remarks,str,0,0.0,3974

@@ -1,0 +1,29 @@
+{
+  "cutoffs": [
+    "2023-07-01",
+    "2024-03-01",
+    "2024-07-01",
+    "2025-03-01"
+  ],
+  "horizon_months": 4,
+  "python": "3.13.5",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10"
+  },
+  "source_hashes": {
+    "historical_stress_v2.py": "5a7224507946e39dcae9f2bbe392a58b7ca34fa62519fb62ce3e45ee2ac22663",
+    "advanced_models.py": "4662c7d5bba0d648211fc15e86c98d538f597e77859ca82a9a2d2aa4d8611990",
+    "spline_model.py": "4a9a9039a8b51663fd9f98cd8185d0556c2f7e380a6db60fd1bb48e0e885b554",
+    "temporal_features.py": "d40785d6e53cd2db9dfa01390d275227ef742834c33436f3ad8f283b369a61dd",
+    "features.py": "bb9de9576a8b2ce247b8e4a6977057cd5e7967a72f6f98dd482cdbb1abb1606d",
+    "models.py": "038ef3abc56e77370d8d2914f4aefed7d451398abeb68394a73854fd50244f21",
+    "data.py": "37145a23e017ba8ff68a4f9f114f88db85219ea7d7b102ad6d4183953ac70ad3",
+    "model_config.json": "4b44ea024365e6a808c4832785b39fec8908bfcd24fd385c080a555fa36d3f7a",
+    "model_config_v2.json": "85eb6e8c7c14a24c336d3050bb2b3538b9bac7a8deaf781ae265c4708c269337"
+  },
+  "training_table_hash": "c1a9a97a264032a467632ca7700f7881e1d8be388a3b26e66affefd6e49d5bcb"
+}

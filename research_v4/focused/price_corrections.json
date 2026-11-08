@@ -1,0 +1,146 @@
+[
+  {
+    "cutoff": "2024-03-01",
+    "tree_weight": 0.5,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 697,
+    "factor": 0.9739838411621224
+  },
+  {
+    "cutoff": "2024-03-01",
+    "tree_weight": 0.5,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 550,
+    "factor": 0.9822561674475543
+  },
+  {
+    "cutoff": "2024-03-01",
+    "tree_weight": 0.75,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 697,
+    "factor": 0.975860428570353
+  },
+  {
+    "cutoff": "2024-03-01",
+    "tree_weight": 0.75,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 555,
+    "factor": 0.9751755623931235
+  },
+  {
+    "cutoff": "2024-03-01",
+    "tree_weight": 1.0,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 686,
+    "factor": 0.9692230517685384
+  },
+  {
+    "cutoff": "2024-03-01",
+    "tree_weight": 1.0,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 575,
+    "factor": 0.969879974107168
+  },
+  {
+    "cutoff": "2024-07-01",
+    "tree_weight": 0.5,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 1560,
+    "factor": 0.9936608579196741
+  },
+  {
+    "cutoff": "2024-07-01",
+    "tree_weight": 0.5,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 1326,
+    "factor": 0.9940367692410325
+  },
+  {
+    "cutoff": "2024-07-01",
+    "tree_weight": 0.75,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 1545,
+    "factor": 0.9960627478036814
+  },
+  {
+    "cutoff": "2024-07-01",
+    "tree_weight": 0.75,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 1312,
+    "factor": 0.993913876848955
+  },
+  {
+    "cutoff": "2024-07-01",
+    "tree_weight": 1.0,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 1510,
+    "factor": 0.9961107549872819
+  },
+  {
+    "cutoff": "2024-07-01",
+    "tree_weight": 1.0,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 1316,
+    "factor": 0.9899851402034846
+  },
+  {
+    "cutoff": "2025-03-01",
+    "tree_weight": 0.5,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 2272,
+    "factor": 0.9888904769860551
+  },
+  {
+    "cutoff": "2025-03-01",
+    "tree_weight": 0.5,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 1942,
+    "factor": 0.9895201498769801
+  },
+  {
+    "cutoff": "2025-03-01",
+    "tree_weight": 0.75,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 2228,
+    "factor": 0.9945352512613044
+  },
+  {
+    "cutoff": "2025-03-01",
+    "tree_weight": 0.75,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 1929,
+    "factor": 0.9898497985557545
+  },
+  {
+    "cutoff": "2025-03-01",
+    "tree_weight": 1.0,
+    "lower_predicted_price": 1500000,
+    "upper_predicted_price": 2000000,
+    "calibration_n": 2187,
+    "factor": 0.9960332785326536
+  },
+  {
+    "cutoff": "2025-03-01",
+    "tree_weight": 1.0,
+    "lower_predicted_price": 2000000,
+    "upper_predicted_price": null,
+    "calibration_n": 1919,
+    "factor": 0.9874749475575081
+  }
+]

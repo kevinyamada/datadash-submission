@@ -1,0 +1,28 @@
+{
+  "source_hashes": {
+    "check_tails_runtime.py": "9047ab5924e3dfb2010cfd263a16a9ead113acecf9ea32d1fd6ee2e80a60cad5",
+    "models.py": "c0497ffaa79ddc45687f666a5001dc05649e44d9c2da76e922ba02340144e83a",
+    "advanced_models.py": "5c23ffe413932c006a659188554d5927f5df76dd98872523c5db75fa9d466ee3",
+    "spline_model.py": "d587a0ea8daa4b91d14d26100162d34a595dceaf1f9bd2d4a34cb66733cb928d",
+    "features.py": "c4c5e5098edd8a8f5eaa79a9bf1ccd911b776bd3cff31a5ba2392425fc2087fb",
+    "data.py": "0a87ee70cb9a752e131223d5ce4b3e629d50e1be6c00364d8c9c0164add40b61",
+    "model_config_v2.json": "85eb6e8c7c14a24c336d3050bb2b3538b9bac7a8deaf781ae265c4708c269337"
+  },
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+  "logical_cpus": 16,
+  "threads": 4,
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10"
+  },
+  "data_hashes": {
+    "listings": "64c780c97e395e20c9c5fb93ceb50fe0c1ff94604b2f8fc5f173f998c5b96ecb",
+    "off_market": "5840818b2045bcfc4eaaf8eb6b1fe9c1f2f45616e9698b573304799d140dbe58",
+    "list_aware": "e2e317b6a63a7b591c460c8a3ff18264dc8ac3259b3a5a6d94c4d86f336515a5"
+  }
+}

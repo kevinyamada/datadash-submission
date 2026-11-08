@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "matplotlib": "3.10.8",
+    "pyarrow": "26.0.0"
+  },
+  "dataset": {
+    "revision": "96a258439e2a85f650699be8339e52d8ac5614b7",
+    "sha256": {
+      "listings": "64c780c97e395e20c9c5fb93ceb50fe0c1ff94604b2f8fc5f173f998c5b96ecb",
+      "test_off_market": "5840818b2045bcfc4eaaf8eb6b1fe9c1f2f45616e9698b573304799d140dbe58",
+      "test_list_aware": "e2e317b6a63a7b591c460c8a3ff18264dc8ac3259b3a5a6d94c4d86f336515a5"
+    }
+  },
+  "model_config": {
+    "off_market_area_offset": false,
+    "selection": "Lowest MdAPE among two prespecified off-market targets on July-October 2025; text ablations diagnostic only; no tuning on December-May scores."
+  },
+  "submission_sha256": {
+    "submission_list_aware.csv": "df38271a399c0b01257eb93fc7dc695a48cd39b207e9e173db9aea6bee7f2c1e",
+    "submission_off_market.csv": "ec4d9938666ae44eff672b42be8fa852a3803126ab578c77e5dacf6426e45930"
+  },
+  "seed": 465,
+  "hidden_test_scores_available": false
+}

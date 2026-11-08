@@ -1,0 +1,31 @@
+{
+  "check": "Python syntax tree unchanged by formatting",
+  "files": [
+    "extensive_research_v3.py",
+    "select_research.py",
+    "experiments.py",
+    "temporal_features.py",
+    "run.py",
+    "research.py",
+    "diagnostics.py",
+    "frozen_check_v2.py",
+    "spline_model.py",
+    "local_research.py",
+    "download_data.py",
+    "diagnostics_v2.py",
+    "validate_v2.py",
+    "check_submission.py",
+    "research_summary.py",
+    "historical_stress_v2.py",
+    "build_report.py",
+    "data.py",
+    "advanced_models.py",
+    "eda.py",
+    "models.py",
+    "finalize.py",
+    "features.py",
+    "test_advanced.py",
+    "test_competition.py",
+    "test_starter.py"
+  ]
+}

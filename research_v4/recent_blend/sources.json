@@ -1,0 +1,67 @@
+[
+  {
+    "file": "research_v3/manifest.json",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\manifest.json",
+    "sha256": "09e8a7a241419225f420bb06fd5c253ec09d8af2cd1301d388de9fbbb8d68a76"
+  },
+  {
+    "file": "research_v3/predictions/2024-03-01_off_market_selected.json",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-03-01_off_market_selected.json",
+    "sha256": "a9cb3d10afd3a4e0d7b3455b53a88373febde5f8e907bcee5af86d2a1f16324e"
+  },
+  {
+    "file": "research_v3/predictions/2024-03-01_off_market_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-03-01_off_market_selected.csv",
+    "sha256": "5d3565e13c77f4f3671ce8ef79189ce932bb427e21c319b561189df1f2dbad7a"
+  },
+  {
+    "file": "research_v3/predictions/2024-03-01_off_market_lgb_cal_3_0.5.json",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-03-01_off_market_lgb_cal_3_0.5.json",
+    "sha256": "51874154b01d40c777e2a55620964e9fefad8655231840489b0d93e6079c68f4"
+  },
+  {
+    "file": "research_v3/predictions/2024-03-01_off_market_lgb_cal_3_0.5.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-03-01_off_market_lgb_cal_3_0.5.csv",
+    "sha256": "5c32d2e4dda90b681717af13db1b5637efbc20554118d4ae93569c516c9e27ad"
+  },
+  {
+    "file": "research_v3/predictions/2024-11-01_off_market_selected.json",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-11-01_off_market_selected.json",
+    "sha256": "88018f3584f6a8d60a134012a20fd53e43c5f93690ae34f5b4b5b2643fc43765"
+  },
+  {
+    "file": "research_v3/predictions/2024-11-01_off_market_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-11-01_off_market_selected.csv",
+    "sha256": "a9ae5b968e6e4af48652f0d3b63f21e048dc00224fae40272b73bd8d6cd7bfbf"
+  },
+  {
+    "file": "research_v3/predictions/2024-11-01_off_market_lgb_cal_3_0.5.json",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-11-01_off_market_lgb_cal_3_0.5.json",
+    "sha256": "1531ea24b22e138d7daa5d2d2ff6df1b9a43612dcd513078356bedb7953d742f"
+  },
+  {
+    "file": "research_v3/predictions/2024-11-01_off_market_lgb_cal_3_0.5.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2024-11-01_off_market_lgb_cal_3_0.5.csv",
+    "sha256": "8618f339d017ed6de1f81fbf7879d0addd2aed9215f30df518142dedcd1751d5"
+  },
+  {
+    "file": "research_v3/predictions/2025-07-01_off_market_selected.json",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2025-07-01_off_market_selected.json",
+    "sha256": "420abd9c8bf599e18341303c9b31d23e24813de1b2e6733eaa33133046881cf1"
+  },
+  {
+    "file": "research_v3/predictions/2025-07-01_off_market_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2025-07-01_off_market_selected.csv",
+    "sha256": "1bb7fa608f660372bd325922bcd7ab5af1735efd6955b9ea65219065836a4951"
+  },
+  {
+    "file": "research_v3/predictions/2025-07-01_off_market_lgb_cal_3_0.5.json",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2025-07-01_off_market_lgb_cal_3_0.5.json",
+    "sha256": "8be5dfdb5377f631124157240437bf3756aad6850b0255152a89de0b8cce30a2"
+  },
+  {
+    "file": "research_v3/predictions/2025-07-01_off_market_lgb_cal_3_0.5.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v3\\predictions\\2025-07-01_off_market_lgb_cal_3_0.5.csv",
+    "sha256": "81e5992286422df4ccfe4b55cf9a3ebebe03303356a0efe47499afc9601abc3c"
+  }
+]

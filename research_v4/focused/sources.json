@@ -1,0 +1,87 @@
+[
+  {
+    "file": "research_v2/historical_stress/pred_2023-07-01_off_market_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2023-07-01_off_market_selected.csv",
+    "sha256": "787a52c2cc014b207e5e0417b085c9f6af9d89b7dc27718776fc70271dc03e0b"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2023-07-01_off_market_lgb_l2_calibrated.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2023-07-01_off_market_lgb_l2_calibrated.csv",
+    "sha256": "40d74b965c362c9ea2752eacb1ff717e6c8b01c5bef7d995a8d1bc9c04080f53"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2023-07-01_off_market_spline_text_ridge10.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2023-07-01_off_market_spline_text_ridge10.csv",
+    "sha256": "81376d3ea28b1aeb45a3a478820d08a52f35dbff2cb6901c88a81aa36238a679"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2023-07-01_list_aware_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2023-07-01_list_aware_selected.csv",
+    "sha256": "cabaa5e1966ade8fcca07f530183e5e29b961387c5ea3da0dee386bed663c61f"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-03-01_off_market_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-03-01_off_market_selected.csv",
+    "sha256": "27eb21830c711b723891df0419fe52ab569c07de0775ec263eb4081f06d3bcff"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-03-01_off_market_lgb_l2_calibrated.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-03-01_off_market_lgb_l2_calibrated.csv",
+    "sha256": "aeb6ea7a7776567b30ec5087e0e00eb7484685e8c3f6958bd7bb8dc7d915882e"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-03-01_off_market_spline_text_ridge10.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-03-01_off_market_spline_text_ridge10.csv",
+    "sha256": "21c13f22db2e3da698c88a0a0bbbb87ccd18418391b1f143375e5a213174c288"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-03-01_list_aware_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-03-01_list_aware_selected.csv",
+    "sha256": "6305dedb423b86a2a25ba8576d76ceef0e7233e2ce2874b14a0653cedf5fc5b7"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-07-01_off_market_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-07-01_off_market_selected.csv",
+    "sha256": "709f7d7fea5caec92afc709bdd4532a03e7e135a7db76553e2697078a4024730"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-07-01_off_market_lgb_l2_calibrated.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-07-01_off_market_lgb_l2_calibrated.csv",
+    "sha256": "b7a4899a647d93a6cc3977bc2ae338722f725df540f461d9182b046096eb87ed"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-07-01_off_market_spline_text_ridge10.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-07-01_off_market_spline_text_ridge10.csv",
+    "sha256": "31f204431d42e3eca45f6fb2af27e47c9b86c39e8bee6ab1ab2aa018b22935a3"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2024-07-01_list_aware_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2024-07-01_list_aware_selected.csv",
+    "sha256": "264ab2f0f390bfc2e47506919cdcc237fd6ce1507bbb0b0ba9daf68d58f0204d"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2025-03-01_off_market_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2025-03-01_off_market_selected.csv",
+    "sha256": "b1cee8341713f783d968acf04ca47166ffb11abfcfb8e5e3a5b9b420dae7148c"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2025-03-01_off_market_lgb_l2_calibrated.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2025-03-01_off_market_lgb_l2_calibrated.csv",
+    "sha256": "01f54052e9fdcece5af23d0b23cacdbe2f23a69cbfbb7b740cc2d18ab3007856"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2025-03-01_off_market_spline_text_ridge10.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2025-03-01_off_market_spline_text_ridge10.csv",
+    "sha256": "c912765971c55aa78f6666462cfa882e4d7fe755290b8d2bff9279069ccd49fb"
+  },
+  {
+    "file": "research_v2/historical_stress/pred_2025-03-01_list_aware_selected.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\historical_stress\\pred_2025-03-01_list_aware_selected.csv",
+    "sha256": "96f2be6b7a1c7df52db84915f67e02870ad1f562704be614d89160b68cc5a654"
+  },
+  {
+    "file": "research_v2/official/outputs/validation_predictions.csv",
+    "source": "C:\\Users\\kevin\\datadash\\research_v2\\official\\outputs\\validation_predictions.csv",
+    "sha256": "2fb62693bb8d2a1fab96d3566dea1f662cf00d7cde3f9a8dac2d381c36b2a9ee"
+  }
+]
