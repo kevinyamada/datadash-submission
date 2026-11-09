@@ -1,8 +1,12 @@
 # Toronto home price prediction
 
-This is my work for SSU Data Dash 2026. The goal is to predict sale prices for synthetic Toronto homes. There are two tasks: estimate a home without its asking price, and predict a sale when its asking price is known.
+This is our work for SSU Data Dash 2026. The goal is to predict sale prices for synthetic Toronto homes. There are two tasks: estimate a home without its asking price, and predict a sale when its asking price is known.
 
-The current work is on the `model-research-v2` branch. The report is in `report/report.pdf`. It is still a draft because the video link and final team details have not been added.
+This public submission is on the `main` branch. Team members: Kevin Ryuichi Yamada and Luka Tosic.
+
+[Report PDF](report/report.pdf) · [Presentation video](https://www.youtube.com/watch?v=Sgtuz8VY2iQ) · [Editable report source](report/report.tex)
+
+The video is 4 minutes 42 seconds. The two final prediction files are in `submissions`.
 
 ## Results
 

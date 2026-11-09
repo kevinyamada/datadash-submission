@@ -1,6 +1,6 @@
 # Video script
 
-Matches the four page combined report updated November 8. Rehearse below five minutes. Show the relevant figures and property type table at readable size.
+Companion script for the four page report. Recorded presentation: https://www.youtube.com/watch?v=Sgtuz8VY2iQ (4 minutes 42 seconds). Public code: https://github.com/kevinyamada/datadash-submission. Presenters: Kevin Ryuichi Yamada and Luka Tosic.
 
 ## Problem and data
 

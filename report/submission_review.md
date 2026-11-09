@@ -1,9 +1,17 @@
-# Submission status, November 8
+# Submission review
 
-The current report combines the existing report with the teammate's supplementary weighted score paragraph. It retains measured runtimes and the price tail breakdown by property type. The compiled PDF has four pages. The video script matches this combined version.
+The final report has four pages and links to the public repository and recorded video.
 
-The weighted score rankings are transcribed from the supplied Overleaf report. Its weights, normalization formula, norm order and confirmation dates still need documentation or a link to the calculation code. The calculation has not been independently verified. Component rankings do not separately validate the blend.
+Repository: https://github.com/kevinyamada/datadash-submission
 
-Edit report.tex in Overleaf using overleaf_report.zip. The ZIP includes both figures and the video script. Overleaf edits do not automatically update GitHub. Recompile after changes and check the page count.
+Video: https://www.youtube.com/watch?v=Sgtuz8VY2iQ
 
-Before submitting, add all team names and the accessible video URL, remove the draft notice, verify access for judges to the private repository, and confirm both submission CSVs. Keep any later report edits consistent with video_script.md.
+Presenters: Kevin Ryuichi Yamada and Luka Tosic.
+
+The video was accessible without signing in and its reported duration was 4 minutes 42 seconds. This check does not assess audio quality.
+
+The prediction files contain 3,974 unique IDs without asking price and 4,064 unique IDs with asking price. Prices are positive and finite. The earlier local test run passed all 34 tests; training was not repeated for this document update.
+
+The weighted score comparison is supplementary analysis supplied by the team. Its exact weights and normalization formula were not independently verified in this submission check.
+
+Upload report/report.pdf to the submission form. Enter the agreed team name, full roster and emails. Check both report links in a private browser window, submit once for the team, and save the confirmation. The editable source is report/report.tex and the Overleaf package is report/overleaf_report.zip.

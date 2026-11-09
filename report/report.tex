@@ -13,10 +13,10 @@
 \begin{center}
 {\LARGE\bfseries Predicting Toronto home prices}\par
 {\large SSU Data Dash 2026}\par
-Kevin Ryuichi Yamada
+Kevin Ryuichi Yamada and Luka Tosic
 \end{center}
-\textbf{Repository:} \href{https://github.com/kevinyamada/datadashkevin/tree/model-research-v2}{kevinyamada/datadashkevin, model research branch}\par
-\textbf{Draft status:} Video link and final team details must be added before submission.
+\textbf{Repository:} \href{https://github.com/kevinyamada/datadash-submission}{github.com/kevinyamada/datadash-submission}\par
+\textbf{Video:} \href{https://www.youtube.com/watch?v=Sgtuz8VY2iQ}{youtube.com/watch?v=Sgtuz8VY2iQ}
 
 \section{The problem and the data}
 A buyer needs a price estimate before deciding which homes fit their budget. We study two different questions. Without an asking price, how much is the home worth? With an asking price, how much might the listing sell for? We build separate models because asking price contains information that is unavailable for the first question.
@@ -124,5 +124,5 @@ An exploratory property based calibration raised coverage with asking price to 9
 
 Synthetic descriptions may carry signals that do not transfer to real homes, and a description might not exist before a real listing. Area midpoints are approximate. Tree models and extrapolated spline trends can miss market shifts. Shared market shocks, temporal drift and refitting mean the prediction intervals have no guaranteed future coverage. Hidden sale prices remain unknown.
 
-\textbf{Reproduction.} The sole predictive data source is the \href{https://huggingface.co/datasets/Baliyang/SSU_data_dash}{competition dataset}, pinned to revision \texttt{96a2584}. Run the commands in the repository README. Dependencies, model settings, predictions and experiment summaries are stored with the code. All 34 software tests passed locally; these check software behaviour, not hidden price accuracy. The submission files contain only \texttt{ml\_num} and \texttt{predicted\_price}. The video must be accessible to judges, and the private repository must be shared with organisers before submission.
+\textbf{Reproduction.} The sole predictive data source is the \href{https://huggingface.co/datasets/Baliyang/SSU_data_dash}{competition dataset}, pinned to revision \texttt{96a2584}. Run the commands in the repository README. Dependencies, model settings, predictions and experiment summaries are stored with the code. All 34 software tests passed locally; these check software behaviour, not hidden price accuracy. The submission files contain only \texttt{ml\_num} and \texttt{predicted\_price}. The video and source repository are publicly accessible through the links on page one.
 \end{document}
